@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:ctl="http://catel.codeplex.com">
+  <RootProjects xmlns:d1p1="http://schemas.datacontract.org/2004/07/Caitlyn.Models" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <d1p1:RootProject>
+      <Name>Trustsoft.WideHotkeys.NET35</Name>
+      <Rules xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </d1p1:RootProject>
+    <d1p1:RootProject>
+      <Name>Trustsoft.WideHotkeys.WinForms.NET35</Name>
+      <Rules xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </d1p1:RootProject>
+    <d1p1:RootProject>
+      <Name>Trustsoft.WideHotkeys.Wpf.NET35</Name>
+      <Rules xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+    </d1p1:RootProject>
+  </RootProjects>
+  <ProjectMappings xmlns:d1p1="http://schemas.datacontract.org/2004/07/Caitlyn.Models" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.NET40</TargetProject>
+    </d1p1:ProjectMapping>
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.NET45</TargetProject>
+    </d1p1:ProjectMapping>
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.WinForms.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.WinForms.NET40</TargetProject>
+    </d1p1:ProjectMapping>
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.WinForms.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.WinForms.NET45</TargetProject>
+    </d1p1:ProjectMapping>
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.Wpf.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.Wpf.NET40</TargetProject>
+    </d1p1:ProjectMapping>
+    <d1p1:ProjectMapping>
+      <SourceProject>Trustsoft.WideHotkeys.Wpf.NET35</SourceProject>
+      <TargetProject>Trustsoft.WideHotkeys.Wpf.NET45</TargetProject>
+    </d1p1:ProjectMapping>
+  </ProjectMappings>
+  <EnableAutoLink>true</EnableAutoLink>
+</Configuration>

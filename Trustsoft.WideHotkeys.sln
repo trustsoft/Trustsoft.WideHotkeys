@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B36482E1-F330-4EB9-BDF0-FCD1BA4272AD}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		CommonAssemblyInfo.WinForms.cs = CommonAssemblyInfo.WinForms.cs
+		CommonAssemblyInfo.Wpf.cs = CommonAssemblyInfo.Wpf.cs
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wpf", "Wpf", "{BA371C7C-14F0-42A9-873A-D2196C5601ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{DE24C545-55AA-432F-BB25-11D8865CCC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.NET35", "Trustsoft.WideHotkeys.NET35\Trustsoft.WideHotkeys.NET35.csproj", "{A4DC70C5-393F-42AA-B549-886C1CA94D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.NET40", "Trustsoft.WideHotkeys.NET40\Trustsoft.WideHotkeys.NET40.csproj", "{0A8D03D8-5718-4AA8-8140-F61835CC7179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.NET45", "Trustsoft.WideHotkeys.NET45\Trustsoft.WideHotkeys.NET45.csproj", "{9408FE3E-E9D2-422A-B9E7-8996277721CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.Wpf.NET35", "Trustsoft.WideHotkeys.Wpf.NET35\Trustsoft.WideHotkeys.Wpf.NET35.csproj", "{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.Wpf.NET40", "Trustsoft.WideHotkeys.Wpf.NET40\Trustsoft.WideHotkeys.Wpf.NET40.csproj", "{D6DF97DE-C476-4143-AD6A-896653E58BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.Wpf.NET45", "Trustsoft.WideHotkeys.Wpf.NET45\Trustsoft.WideHotkeys.Wpf.NET45.csproj", "{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.NET35", "Trustsoft.WideHotkeys.WinForms.NET35\Trustsoft.WideHotkeys.WinForms.NET35.csproj", "{7F057D0D-2B58-4D79-9825-B10890FC537B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.NET40", "Trustsoft.WideHotkeys.WinForms.NET40\Trustsoft.WideHotkeys.WinForms.NET40.csproj", "{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.NET45", "Trustsoft.WideHotkeys.WinForms.NET45\Trustsoft.WideHotkeys.WinForms.NET45.csproj", "{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4DC70C5-393F-42AA-B549-886C1CA94D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DC70C5-393F-42AA-B549-886C1CA94D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DC70C5-393F-42AA-B549-886C1CA94D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DC70C5-393F-42AA-B549-886C1CA94D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8D03D8-5718-4AA8-8140-F61835CC7179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8D03D8-5718-4AA8-8140-F61835CC7179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8D03D8-5718-4AA8-8140-F61835CC7179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8D03D8-5718-4AA8-8140-F61835CC7179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9408FE3E-E9D2-422A-B9E7-8996277721CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9408FE3E-E9D2-422A-B9E7-8996277721CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9408FE3E-E9D2-422A-B9E7-8996277721CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9408FE3E-E9D2-422A-B9E7-8996277721CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DF97DE-C476-4143-AD6A-896653E58BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DF97DE-C476-4143-AD6A-896653E58BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DF97DE-C476-4143-AD6A-896653E58BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DF97DE-C476-4143-AD6A-896653E58BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F057D0D-2B58-4D79-9825-B10890FC537B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F057D0D-2B58-4D79-9825-B10890FC537B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F057D0D-2B58-4D79-9825-B10890FC537B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F057D0D-2B58-4D79-9825-B10890FC537B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FAA4ABC-5E84-4427-8162-35DA5D3DDDAB} = {BA371C7C-14F0-42A9-873A-D2196C5601ED}
+		{D6DF97DE-C476-4143-AD6A-896653E58BB2} = {BA371C7C-14F0-42A9-873A-D2196C5601ED}
+		{39EC107B-6A18-4196-8BE1-AADC5C5EB9F1} = {BA371C7C-14F0-42A9-873A-D2196C5601ED}
+		{7F057D0D-2B58-4D79-9825-B10890FC537B} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
+		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
+		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
+	EndGlobalSection
+EndGlobal
