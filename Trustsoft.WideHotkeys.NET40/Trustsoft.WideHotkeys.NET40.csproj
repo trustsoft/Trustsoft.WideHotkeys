@@ -50,6 +50,24 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\Hotkey.cs">
+      <Link>Hotkey.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\HotkeyEventArgs.cs">
+      <Link>HotkeyEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\HotkeyManagerBase.cs">
+      <Link>HotkeyManagerBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\HotkeyModifiers.cs">
+      <Link>HotkeyModifiers.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\Interop\ExternDll.cs">
+      <Link>Interop\ExternDll.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.NET35\Interop\NativeMethods.cs">
+      <Link>Interop\NativeMethods.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

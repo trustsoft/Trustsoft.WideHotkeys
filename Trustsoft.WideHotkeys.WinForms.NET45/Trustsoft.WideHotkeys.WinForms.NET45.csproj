@@ -50,6 +50,12 @@
     <Compile Include="..\CommonAssemblyInfo.WinForms.cs">
       <Link>Properties\CommonAssemblyInfo.WinForms.cs</Link>
     </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\HotkeyManager.cs">
+      <Link>HotkeyManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\MessageSinkWindow.cs">
+      <Link>MessageSinkWindow.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>

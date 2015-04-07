@@ -54,6 +54,7 @@
     <Compile Include="..\CommonAssemblyInfo.Wpf.cs">
       <Link>Properties\CommonAssemblyInfo.Wpf.cs</Link>
     </Compile>
+    <Compile Include="HotkeyManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

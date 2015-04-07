@@ -4,36 +4,32 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{2E496354-74A1-4537-BDDD-2124FE08A0AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Trustsoft.WideHotkeys</RootNamespace>
-    <AssemblyName>Trustsoft.WideHotkeys.WinForms</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>Trustsoft.WideHotkeys.WinForms.Demo.NET45</RootNamespace>
+    <AssemblyName>Trustsoft.WideHotkeys.WinForms.Demo.NET45</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Binaries\WinForms\Debug\NET40\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Binaries\WinForms\Release\NET40\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\Trustsoft.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -42,33 +38,54 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\CommonAssemblyInfo.WinForms.cs">
-      <Link>Properties\CommonAssemblyInfo.WinForms.cs</Link>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\HotkeyManager.cs">
-      <Link>HotkeyManager.cs</Link>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\MessageSinkWindow.cs">
-      <Link>MessageSinkWindow.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Trustsoft.WideHotkeys.NET40\Trustsoft.WideHotkeys.NET40.csproj">
-      <Project>{0a8d03d8-5718-4aa8-8140-f61835cc7179}</Project>
-      <Name>Trustsoft.WideHotkeys.NET40</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Trustsoft.snk">
-      <Link>Trustsoft.snk</Link>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trustsoft.WideHotkeys.NET45\Trustsoft.WideHotkeys.NET45.csproj">
+      <Project>{9408fe3e-e9d2-422a-b9e7-8996277721cf}</Project>
+      <Name>Trustsoft.WideHotkeys.NET45</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trustsoft.WideHotkeys.WinForms.NET45\Trustsoft.WideHotkeys.WinForms.NET45.csproj">
+      <Project>{fcef1bac-8f78-4d6f-8ef1-d64141cb4788}</Project>
+      <Name>Trustsoft.WideHotkeys.WinForms.NET45</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

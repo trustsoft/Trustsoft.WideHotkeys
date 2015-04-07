@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{3BD6BB41-9D3B-47B6-91F8-096EFEC7AD24}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wpf", "Wpf", "{BA371C7C-14F0-42A9-873A-D2196C5601ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{DE24C545-55AA-432F-BB25-11D8865CCC2B}"
@@ -33,6 +35,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.NET40", "Trustsoft.WideHotkeys.WinForms.NET40\Trustsoft.WideHotkeys.WinForms.NET40.csproj", "{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.NET45", "Trustsoft.WideHotkeys.WinForms.NET45\Trustsoft.WideHotkeys.WinForms.NET45.csproj", "{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.Wpf.Demo.NET45", "Trustsoft.WideHotkeys.Wpf.Demo.NET45\Trustsoft.WideHotkeys.Wpf.Demo.NET45.csproj", "{A2992D32-473C-4B52-9F5E-574751575110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.Demo.NET45", "Trustsoft.WideHotkeys.WinForms.Demo.NET45\Trustsoft.WideHotkeys.WinForms.Demo.NET45.csproj", "{2E496354-74A1-4537-BDDD-2124FE08A0AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +82,14 @@ Global
 		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2992D32-473C-4B52-9F5E-574751575110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2992D32-473C-4B52-9F5E-574751575110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2992D32-473C-4B52-9F5E-574751575110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2992D32-473C-4B52-9F5E-574751575110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E496354-74A1-4537-BDDD-2124FE08A0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E496354-74A1-4537-BDDD-2124FE08A0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E496354-74A1-4537-BDDD-2124FE08A0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E496354-74A1-4537-BDDD-2124FE08A0AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +101,7 @@ Global
 		{7F057D0D-2B58-4D79-9825-B10890FC537B} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
 		{F67C41DD-06F3-49F5-AE47-B3C6AA6CDBFD} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
 		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
+		{A2992D32-473C-4B52-9F5E-574751575110} = {3BD6BB41-9D3B-47B6-91F8-096EFEC7AD24}
+		{2E496354-74A1-4537-BDDD-2124FE08A0AE} = {3BD6BB41-9D3B-47B6-91F8-096EFEC7AD24}
 	EndGlobalSection
 EndGlobal
