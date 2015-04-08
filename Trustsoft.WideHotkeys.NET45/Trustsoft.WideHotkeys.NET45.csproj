@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\Binaries\Library\Debug\NET45\Trustsoft.WideHotkeys.XML</DocumentationFile>
+    <DocumentationFile>..\Binaries\Library\Debug\NET45\Trustsoft.WideHotkeys.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\Binaries\Library\Release\NET45\Trustsoft.WideHotkeys.XML</DocumentationFile>
+    <DocumentationFile>..\Binaries\Library\Release\NET45\Trustsoft.WideHotkeys.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
