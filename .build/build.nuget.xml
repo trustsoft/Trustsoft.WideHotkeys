@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+         ToolsVersion="4.0">
+
+<!--
+***********************************************************************************************************************
+**  build.nuget.proj
+**
+**  TrustSoft Ltd. 2012-2015
+**  No copyright is claimed pursuant to 17 USC § 105.  All Other Rights Reserved.
+**
+**  Code Modification History:
+**  ===================================================================================================================
+**  08/04/2015 - Sukhanov Maxim
+**       Generated original version of source code.
+***********************************************************************************************************************
+-->
+
+  <!-- Import NuGet Targets -->
+  <Import Project="..\.nuget\NuGet.targets" />
+
+  <!-- Define NuGet Properties -->
+  <PropertyGroup>
+    <DownloadNuGetExe>true</DownloadNuGetExe>
+    <PackageOutputDir>..\Package</PackageOutputDir>
+    <NugetUpdateCommand>$(NuGetCommand) Update -self</NugetUpdateCommand>
+    <NugetPackCommand>$(NuGetCommand) pack</NugetPackCommand>
+    <NugetPushCommand>$(NuGetCommand) push</NugetPushCommand>
+  </PropertyGroup>
+
+  <Target Name="CleanNuGetPackages">
+    <Exec Command="del $(PackageOutputDir)\*.nupkg" />
+  </Target>
+
+  <Target Name="UpdateNuGet" DependsOnTargets="CheckPrerequisites">
+    <Exec Command="$(NugetUpdateCommand)" />
+    <Exec Command="del $(SolutionDir).nuget\NuGet.exe.old" Condition="Exists('$(SolutionDir).nuget\NuGet.exe.old')"/>
+  </Target>
+
+</Project>

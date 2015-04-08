@@ -40,6 +40,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.Wpf.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustsoft.WideHotkeys.WinForms.Demo.NET45", "Trustsoft.WideHotkeys.WinForms.Demo.NET45\Trustsoft.WideHotkeys.WinForms.Demo.NET45.csproj", "{2E496354-74A1-4537-BDDD-2124FE08A0AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{6476C2FA-4B4C-4352-B442-D2D8FB6FB278}"
+	ProjectSection(SolutionItems) = preProject
+		.build\build.common.xml = .build\build.common.xml
+		.build\build.nuget.xml = .build\build.nuget.xml
+		.build\build.xml = .build\build.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cmd", "cmd", "{2739A208-D05E-4CEB-AB50-E7DB3C798D98}"
+	ProjectSection(SolutionItems) = preProject
+		.build\build.bat = .build\build.bat
+		.build\build.NuGetPackage.cmd = .build\build.NuGetPackage.cmd
+		.build\build.Release.cmd = .build\build.Release.cmd
+		.build\make.Release.cmd = .build\make.Release.cmd
+		.build\publish.MyGet.cmd = .build\publish.MyGet.cmd
+		.build\publish.NuGet.cmd = .build\publish.NuGet.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{4FF5EA9B-1E13-404F-8FAE-C620EE0FC9FC}"
+	ProjectSection(SolutionItems) = preProject
+		Package\WideHotkeys.nuspec = Package\WideHotkeys.nuspec
+		Package\WideHotkeys.WinForms.nuspec = Package\WideHotkeys.WinForms.nuspec
+		Package\WideHotkeys.Wpf.nuspec = Package\WideHotkeys.Wpf.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,5 +127,7 @@ Global
 		{FCEF1BAC-8F78-4D6F-8EF1-D64141CB4788} = {DE24C545-55AA-432F-BB25-11D8865CCC2B}
 		{A2992D32-473C-4B52-9F5E-574751575110} = {3BD6BB41-9D3B-47B6-91F8-096EFEC7AD24}
 		{2E496354-74A1-4537-BDDD-2124FE08A0AE} = {3BD6BB41-9D3B-47B6-91F8-096EFEC7AD24}
+		{2739A208-D05E-4CEB-AB50-E7DB3C798D98} = {6476C2FA-4B4C-4352-B442-D2D8FB6FB278}
+		{4FF5EA9B-1E13-404F-8FAE-C620EE0FC9FC} = {6476C2FA-4B4C-4352-B442-D2D8FB6FB278}
 	EndGlobalSection
 EndGlobal
