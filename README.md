@@ -1,5 +1,6 @@
 Welcome to WideHotkeys
 ======
+[![master](https://ci.appveyor.com/api/projects/status/4u5x7avkj89edrwc/branch/master?svg=true)](https://ci.appveyor.com/project/ts/trustsoft-widehotkeys/branch/master)
 
 Using this library you can easily manage global (system-wide) hotkeys in `WPF` or `Windows Forms` apps that doesn't have focus.
 
