@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-16"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Trustsoft.WideHotkeys.Wpf</id>
+    <title>Trustsoft.WideHotkeys for WPF</title>
+    <version>0.1.0</version>
+    <owners>Trustsoft Ltd.</owners>
+    <authors>Trustsoft Ltd.</authors>
+    <description>
+      A managed library to handle global (system-wide) hotkeys in WPF applications.
+      This package contains the concrete HotkeyManager implementation for WPF for .NET 3.5/4.0/4.5.
+    </description>
+    <summary>A managed library to handle global (system-wide) hotkeys in WPF applications.</summary>
+    <licenseUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys</projectUrl>
+    <iconUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys/raw/develop/logo.png</iconUrl>
+    <tags>hotkey wpf</tags>
+    <releaseNotes></releaseNotes>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+      <frameworkAssembly assemblyName="WindowsBase" />
+      <frameworkAssembly assemblyName="PresentationCore" />
+      <frameworkAssembly assemblyName="PresentationFramework" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework="net40, net45"/>
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="Trustsoft.WideHotkeys" version="0.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Binaries\WPF\Release\**\Trustsoft.WideHotkeys.Wpf.*" target="lib" />
+    <file src="lib\**\*.*" target="lib"/>
+  </files>
+</package>

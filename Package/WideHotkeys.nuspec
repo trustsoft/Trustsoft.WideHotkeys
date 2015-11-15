@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Trustsoft.WideHotkeys</id>
+    <title>Trustsoft.WideHotkeys</title>
+    <version>0.1.0</version>
+    <owners>Trustsoft Ltd.</owners>
+    <authors>Trustsoft Ltd.</authors>
+    <description>
+      A managed library to handle global (system-wide) hotkeys for .NET 3.5/4.0/4.5.
+      NOTE: Do not install this package directly, instead you should install
+      either the Trustsoft.WideHotkeys.Wpf or Trustsoft.WideHotkeys.WinForms package.
+    </description>
+    <summary>
+      A managed library to handle global (system-wide) hotkeys for Windows Forms and WPF applications.
+      NOTE: Do not install this package directly, instead you should install
+      either the Trustsoft.WideHotkeys.Wpf or Trustsoft.WideHotkeys.WinForms package.
+    </summary>
+    <licenseUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys</projectUrl>
+    <iconUrl>https://github.com/trustsoft/Trustsoft.WideHotkeys/raw/develop/logo.png</iconUrl>
+    <tags>hotkey</tags>
+    <releaseNotes></releaseNotes>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="..\Binaries\Library\Release\**" target="lib" />
+    <file src="lib\**\*.*" target="lib"/>
+  </files>
+</package>

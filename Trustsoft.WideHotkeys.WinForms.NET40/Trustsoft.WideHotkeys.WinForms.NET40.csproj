@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Binaries\WinForms\Debug\NET40\Trustsoft.WideHotkeys.WinForms.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Binaries\WinForms\Release\NET40\Trustsoft.WideHotkeys.WinForms.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -49,6 +51,12 @@
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.WinForms.cs">
       <Link>Properties\CommonAssemblyInfo.WinForms.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\HotkeyManager.cs">
+      <Link>HotkeyManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Trustsoft.WideHotkeys.WinForms.NET35\MessageSinkWindow.cs">
+      <Link>MessageSinkWindow.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
